@@ -1,0 +1,131 @@
+body{
+	padding:0;
+	margin:0;
+	background:url('bgimg.jpg') fixed no-repeat;
+	background-size:cover;
+	}
+
+.toparea{
+	background:#B95752;
+	text-align:center;
+	color:white;
+	padding:10px;
+}
+    .toparea a:link, .toparea a:visited{
+    	text-decoration:none;
+         color:white;
+    }
+
+.titlearea{
+	background:#F2C38B;
+	text-align:center;
+}
+.titledata{
+	padding: 40px 10px;
+	}
+
+.titlearea h1{
+	 font-size:12vw;
+	margin:0;
+     color:#73353E;
+     text-shadow:5px 5px 5px rgba(0,0,0,0.2);
+}
+ .titlearea h3{
+ 	 font-size:6vw;
+ }
+.titlearea img{
+	width:120px;
+	height:120px;
+}
+
+.aboutarea{
+	background:#FCFCFC;
+	padding:50px 10px;
+	}
+	
+.arrow-box{
+		 text-align: center;`
+		}
+		
+.principal-msg p{
+ text-align:justify;
+}
+
+.principal-msg img{
+	float:left;
+}
+
+.sign{
+	float:right;
+  }
+.coursearea{
+	padding:50px 0;
+	background:rgba(255,255,255,0.6) ;
+	}
+	
+.box{
+	background:white;
+	padding:25px;
+	margin:25px;
+	text-align:center;
+}
+.box img{
+	width:120px;
+	height:120px;
+	margin:20px;
+	border-radius:50%;
+	transition:all 4s;
+	}
+	
+.box img:hover{
+	transform:rotate(360deg);
+	}
+	
+.footerarea{
+	background:#1B1B1B;
+	padding:50px 0;
+	}
+.footerbox{
+	padding:10px;
+}
+.footerarea h4{
+	color:white;
+	text-align:center;
+	border-left: solid 3px white;
+	}
+.footerarea h5,.footerarea p{
+	 color:#F2C38B;
+	}
+.footer-up a:link, .footer-up a:visited{
+	 text-decoration:none;
+	 color: #D37F58;
+	display: block;
+	}
+	
+.footer-up{
+	border-bottom:solid white 1px;
+}
+.footer-down{
+	 text-align:center;
+	 color:white;
+	 padding:30px;
+}
+.footer-down a:link,.footer-down a:visited{
+	 text-decoration:none;
+	 color: #D37F58;
+	}
+	
+@media screen and (max-width:800px){
+	.footerbox{
+		  padding:10px 20x;
+		}
+	.footerarea h4{
+		  border-left: 0px;
+		}
+	.footerarea h5,.footerarea p{
+		 text-align:center;
+		}
+	.footerarea a:link,.footerarea a:visited{
+		  text-align:center;
+		}
+	}
