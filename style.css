@@ -25,7 +25,7 @@ body{
 	}
 
 .titlearea h1{
-	 font-size:25px;
+	 font-size:35px;
 	margin:0;
      color:#73353E;
      text-shadow:5px 5px 5px rgba(0,0,0,0.2);
@@ -37,10 +37,15 @@ body{
 	width:120px;
 	height:120px;
 }
-
+.navarea{
+	 background:#FCFCFC;
+	}
 .aboutarea{
 	background:#FCFCFC;
 	padding:50px 10px;
+	}
+.aboutarea img{
+	margin:10px;
 	}
 	
 .arrow-box{
